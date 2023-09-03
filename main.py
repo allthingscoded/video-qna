@@ -16,6 +16,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.llms import OpenAI
 import pandas as pd
 
+os.environ["openai_api_key"] = st.secrets["openai_api_key"]
 st.set_page_config(layout="centered", page_title="QnA_with_Videos")
 
 #header of the application
