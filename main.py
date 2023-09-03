@@ -16,7 +16,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.llms import OpenAI
 import pandas as pd
 
-os.environ['openai_api_key'] = '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'
+os.environ['openai_api_key'] = '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'
 
 st.set_page_config(layout="centered", page_title="QnA_with_Videos")
 
