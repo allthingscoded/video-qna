@@ -1,6 +1,6 @@
-#__import__('pysqlite3')
-#import sys
-#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 from PIL import Image
@@ -16,7 +16,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.llms import OpenAI
 import pandas as pd
 
-os.environ['openai_api_key'] = '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'
+os.environ['openai_api_key'] = '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'
 
 st.set_page_config(layout="centered", page_title="QnA_with_Videos")
 
